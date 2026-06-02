@@ -1,0 +1,244 @@
+// Custom variables overriding Bootstrap defaults
+$primary: #064e3b;          // Deep Emerald Green
+$secondary: #1e293b;        // Dark Slate Blue
+$success: #059669;          // Emerald Green
+$info: #0ea5e9;             // Bright Blue
+$warning: #d97706;          // Rich Warm Gold
+$danger: #dc2626;           // Red
+$light: #fdfbf7;            // Soft Cream Light
+$dark: #0a0f0d;             // Rich Dark Emerald/Black
+
+// Brand specific colors
+$gold: #d97706;
+$gold-light: #fef3c7;
+$gold-dark: #b45309;
+$cream: #fdfbf7;
+$emerald-light: #0d9488;
+$muted-cream: #d1fae5;
+
+// Font Settings
+$font-family-sans-serif: 'Inter', system-ui, -apple-system, sans-serif;
+
+// Body settings
+$body-bg: $cream;
+$body-color: #334155; // Slate-700 for better readability
+
+// Border radius
+$border-radius: 0.5rem;
+$border-radius-lg: 1rem;
+$border-radius-sm: 0.25rem;
+
+// Import Bootstrap
+@import "bootstrap/scss/bootstrap";
+
+// Import Bootstrap Icons
+@import "bootstrap-icons/font/bootstrap-icons.css";
+
+/* --- Custom Theme Styling --- */
+
+// Custom font helper
+.font-display {
+  font-family: 'Outfit', sans-serif !important;
+}
+
+// Brand Color Helpers
+.bg-cream {
+  background-color: #fffbeb !important;
+}
+.bg-dark-emerald {
+  background-color: #042f24 !important;
+}
+.bg-emerald-light {
+  background-color: #0b6650 !important;
+}
+.text-gold {
+  color: #fbbf24 !important;
+}
+.text-primary-gold {
+  color: #d97706 !important;
+}
+.text-dark-emerald {
+  color: #064e3b !important;
+}
+.border-light-gold {
+  border-color: #fef3c7 !important;
+}
+.border-gold-dark {
+  border-color: #b45309 !important;
+}
+.text-muted-cream {
+  color: #a7f3d0 !important;
+}
+
+// Custom Buttons
+.btn-gold {
+  background-color: #d97706;
+  border-color: #d97706;
+  color: #ffffff !important;
+  &:hover, &:focus, &:active {
+    background-color: #b45309 !important;
+    border-color: #b45309 !important;
+    color: #ffffff !important;
+  }
+}
+
+.btn-outline-gold {
+  background-color: transparent;
+  border-color: #d97706;
+  color: #d97706 !important;
+  &:hover, &:focus, &:active {
+    background-color: #d97706 !important;
+    border-color: #d97706 !important;
+    color: #ffffff !important;
+  }
+}
+
+// Micro-animations & Transitions
+.transition-all {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn-hover-scale {
+  transition: all 0.2s ease-in-out;
+  &:hover {
+    transform: translateY(-2px) scale(1.02);
+  }
+  &:active {
+    transform: translateY(0) scale(0.98);
+  }
+}
+
+.hover-lift {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.1) !important;
+  }
+}
+
+.hover-shadow-lg {
+  transition: box-shadow 0.3s ease;
+  &:hover {
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.08) !important;
+  }
+}
+
+// Glassmorphism Card
+.glass-card {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(4, 47, 36, 0.03);
+}
+
+// Custom badges & elements
+.badge-gold {
+  background-color: #fef3c7;
+  color: #b45309;
+  font-weight: 600;
+  border: 1px solid rgba(217, 119, 6, 0.2);
+}
+
+.badge-emerald {
+  background-color: #d1fae5;
+  color: #065f46;
+  font-weight: 600;
+}
+
+// Step numbers for enrollment
+.step-number {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #064e3b;
+  color: #ffffff;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+  box-shadow: 0 4px 6px rgba(6, 78, 59, 0.15);
+}
+
+// Testimonial quote icon
+.quote-icon {
+  font-size: 3rem;
+  color: rgba(217, 119, 6, 0.15);
+  position: absolute;
+  top: -15px;
+  left: 20px;
+}
+
+// Hero gradient background
+.hero-gradient {
+  background: linear-gradient(135deg, #042f24 0%, #064e3b 100%);
+  position: relative;
+  overflow: hidden;
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: radial-gradient(circle at 80% 20%, rgba(217, 119, 6, 0.12) 0%, transparent 50%);
+    pointer-events: none;
+  }
+}
+
+// Custom page header
+.page-header-gradient {
+  background: linear-gradient(135deg, #042f24 0%, #064e3b 100%);
+  color: #ffffff;
+  padding: 5rem 0 3rem 0;
+  position: relative;
+}
+
+// Footer link styling
+.footer-link {
+  color: #d1fae5;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  &:hover {
+    color: #fbbf24;
+    padding-left: 4px;
+  }
+}
+
+// General UI elements
+.leading-none {
+  line-height: 1 !important;
+}
+.fs-7 {
+  font-size: 0.85rem !important;
+}
+.fs-8 {
+  font-size: 0.8rem !important;
+}
+.fs-9 {
+  font-size: 0.7rem !important;
+}
+.opacity-85 {
+  opacity: 0.85;
+}
+.opacity-75 {
+  opacity: 0.75;
+}
+
+// Pulse animation for CTAs
+@keyframes pulse-gold {
+  0% {
+    box-shadow: 0 0 0 0 rgba(217, 119, 6, 0.5);
+  }
+  70% {
+    box-shadow: 0 0 0 10px rgba(217, 119, 6, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(217, 119, 6, 0);
+  }
+}
+
+.animate-pulse-gold {
+  animation: pulse-gold 2s infinite;
+}

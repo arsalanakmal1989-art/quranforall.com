@@ -422,7 +422,7 @@ export default function Home() {
               <div className="card border-0 h-100 p-4 shadow-sm position-relative">
                 <i className="bi bi-quote quote-icon"></i>
                 <p className="text-muted fs-7 mb-4 relative-index">
-                  "Finding a tutor that accommodates GMT/BST school times was a struggle. Quran For All has been amazing! My son does his 30 mins class right after coming home. Tutors are patient and their English is fluent."
+                  "Finding a tutor that accommodates GMT/BST school times was a struggle. Quran For Alll has been amazing! My son does his 30 mins class right after coming home. Tutors are patient and their English is fluent."
                 </p>
                 <div className="d-flex align-items-center gap-3 mt-auto">
                   <div className="bg-dark-emerald text-white rounded-circle fw-bold d-flex align-items-center justify-content-center" style={{ width: '40px', height: '40px' }}>

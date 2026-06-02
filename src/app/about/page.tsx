@@ -1,8 +1,8 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: "About Us | Quran For All Online Academy",
-  description: "Learn about the mission and values of Quran For All. Discover how we connect UK families with vetted, native Arabic and Quran tutors for flexible 1-on-1 lessons.",
+  title: "About Us | Quran For Alll Online Academy",
+  description: "Learn about the mission and values of Quran For Alll. Discover how we connect UK families with vetted, native Arabic and Quran tutors for flexible 1-on-1 lessons.",
 };
 
 export default function About() {
@@ -12,7 +12,7 @@ export default function About() {
       <section className="page-header-gradient text-center">
         <div className="container">
           <span className="badge badge-gold px-3 py-2 rounded-pill fw-bold mb-2">OUR MISSION</span>
-          <h1 className="display-4 fw-extrabold text-white mb-2 font-display">About Quran For All</h1>
+          <h1 className="display-4 fw-extrabold text-white mb-2 font-display">About Quran For Alll</h1>
           <p className="lead text-muted-cream max-w-600 mx-auto opacity-90">
             Dedicated to providing accessible, high-quality, and authentic Quranic education for students worldwide.
           </p>
@@ -29,7 +29,7 @@ export default function About() {
                 Pioneering Flexible, Certified 1-on-1 Quran Lessons
               </h2>
               <p className="text-muted mb-3">
-                At <strong>Quran For All</strong>, we understand the challenges UK Muslim families face in finding qualified Quran tutors who fit around local school schedules. Traditional weekend schools can be crowded and offer limited personal attention, while coordinating with private local tutors can be challenging.
+                At <strong>Quran For Alll</strong>, we understand the challenges UK Muslim families face in finding qualified Quran tutors who fit around local school schedules. Traditional weekend schools can be crowded and offer limited personal attention, while coordinating with private local tutors can be challenging.
               </p>
               <p className="text-muted mb-4">
                 Our platform bridges this gap by matching you or your children with certified, experienced Quran scholars. We focus strictly on 1-on-1 instruction via Google Meet, ensuring the tutor adapts entirely to the student's pace, correcting recitation rules (Tajweed) in real-time.

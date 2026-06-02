@@ -19,7 +19,7 @@ export default function Navbar() {
           </span>
           <div>
             <span className="fs-4 fw-bold text-dark-emerald mb-0 d-block leading-none font-display">
-              Quran<span className="text-primary-gold">ForAll</span>
+              Quran<span className="text-primary-gold">ForAlll</span>
             </span>
             <span className="fs-9 text-muted d-block leading-none" style={{ fontSize: '0.75rem', letterSpacing: '0.05em' }}>
               ONLINE ACADEMY

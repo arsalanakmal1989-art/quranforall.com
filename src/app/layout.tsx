@@ -18,11 +18,11 @@ const outfit = Outfit({
 });
 
 export const metadata: Metadata = {
-  title: "Quran For All | 1-on-1 Online Quran Classes & Tajweed Academy",
+  title: "Quran For Alll | 1-on-1 Online Quran Classes & Tajweed Academy",
   description: "Learn Quran online with qualified tutors. Mon-Fri flexible scheduling, 30-min daily 1-on-1 lessons via Google Meet. Start your 1-week free trial today!",
   keywords: ["online quran classes", "learn quran tajweed uk", "quran academy uk", "online quran teacher uk", "quran memorization online", "quran tuition london", "quran for kids", "tajweed rules"],
   openGraph: {
-    title: "Quran For All | Online Quran & Tajweed Academy",
+    title: "Quran For Alll | Online Quran & Tajweed Academy",
     description: "Learn Quran online with certified 1-on-1 tutors. Flexible classes via Google Meet. Get a 1-week free trial today!",
     type: "website",
     locale: "en_GB",

@@ -1,7 +1,7 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: "Affordable Pricing & Bank Details | Quran For All Academy",
+  title: "Affordable Pricing & Bank Details | Quran For Alll Academy",
   description: "View our flat-rate tuition fee of $50 (approx. £40) per month. Learn about our 1-week free trial, Faysal Bank payment details, and easy enrollment steps.",
 };
 

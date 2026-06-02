@@ -14,7 +14,7 @@ export default function Footer() {
                 <i className="bi bi-book-half fs-5"></i>
               </span>
               <span className="fs-4 fw-bold text-white font-display">
-                Quran<span className="text-gold">ForAll</span>
+                Quran<span className="text-gold">ForAlll</span>
               </span>
             </Link>
             <p className="text-muted-cream fs-6 mb-4">
@@ -108,7 +108,7 @@ export default function Footer() {
         <div className="row align-items-center">
           <div className="col-md-6 text-center text-md-start">
             <p className="mb-0 text-muted-cream fs-7">
-              &copy; {currentYear} QuranForAll.com. All rights reserved.
+              &copy; {currentYear} QuranForAlll.com. All rights reserved.
             </p>
           </div>
           <div className="col-md-6 text-center text-md-end mt-2 mt-md-0">

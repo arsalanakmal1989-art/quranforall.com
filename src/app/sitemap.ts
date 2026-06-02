@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next';
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const baseUrl = 'https://quranforall.com';
+  const baseUrl = 'https://quranforalll.com';
   
   return [
     {
